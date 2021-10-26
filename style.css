@@ -6,11 +6,24 @@
     /*background-image: url('https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/ftc/event-experience.jpg');*/
 }
 
+h1 {
+    font-size: 64pt;
+}
+@media only screen and (max-width: 479px) {
+    .main-title {
+        font-size: 40pt;
+    }
+}
 .mission_statement {
     background-color: rgb(201, 163, 163);
     text-align: center;
     padding: 100px 0;
     color: #fff;
+}
+
+p {
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .gallery {
@@ -77,7 +90,10 @@ body {
 }
 
 .nav-item {
-    padding-right: .5rem;
+    padding-right: .2rem;
+}
+.nav-link {
+    padding-right: .2rem;
 }
 
 .navbar-logo{
