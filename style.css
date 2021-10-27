@@ -33,8 +33,12 @@ h1 {
 .navbar {
     background-color: #fff;
     overflow: hidden;
-    padding-bottom: .25rem;
-    padding-top: .25rem;
+    padding-bottom: .55rem;
+    padding-top: .55rem;
+}
+
+.navbar-logo {
+    padding-right: .5rem;
 }
 
 /* Style the links inside the navigation bar */
