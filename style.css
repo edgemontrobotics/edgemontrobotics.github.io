@@ -99,3 +99,24 @@ h1 {
 }
 
 /* The "responsive" class is added to the navbar with JavaScript when the user clicks on the icon. This class makes the navbar look good on small screens (display the links vertically instead of horizontally) */
+
+
+
+.img1 {
+    width: 50%;
+    height: 100%;
+}
+
+/* .outreach-images img1 img {
+    height: 200px;
+} */
+
+.img2 {
+    width: 50%;
+    height: 50%;
+}
+
+.img3 {
+    width: 50%;
+    height: 50%;
+}
