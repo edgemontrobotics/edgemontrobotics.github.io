@@ -120,3 +120,34 @@ h1 {
     width: 50%;
     height: 50%;
 }
+
+.membership-level>ul{
+    list-style: none;
+    display: flex !important;
+    justify-content: center !important;
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 1rem;
+    flex-wrap: wrap
+}
+.membership-level>ul li{
+    display: flex;
+    padding:.33333rem 1rem;
+    white-space:nowrap
+}
+.membership-level>ul li:after{
+    display:none
+}
+.membership-level>ul a{
+    text-decoration:underline;
+    white-space:normal
+}
+.membership-level>ul a img{
+    transition:transform ease-in-out 100ms
+}
+.membership-level>ul a img:hover{
+    transform:scale(1.05)
+}
+.membership-level>ul img{
+    max-width:100%
+}
