@@ -1,9 +1,8 @@
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function navBarResponsive() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
+let header = document.getElementById("header")
+
+if (header) {
+    console.log("hi")
+    window.addEventListener("scroll", (e) => {
+        header.style.backgroundPositionY = `${window.scrollY *0.3}px`
+    })
 }

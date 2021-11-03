@@ -1,9 +1,13 @@
 .header {
-    background-color: rgb(163, 163, 163, 2);
     text-align: center;
     padding: 20em 0;
-    color: #fff;
-    /*background-image: url('https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/ftc/event-experience.jpg');*/
+    color:#fff;
+}
+
+.pr-header-image {
+    background-image: url('https://wallpapercave.com/wp/wp4820281.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center; 
 }
 
 h1 {
@@ -32,7 +36,7 @@ h1 {
 /* Add a black background color to the top navigation */
 .navbar {
     background-color: #fff;
-    overflow: hidden;
+    /* ov/erflow: hidden; */
     padding-bottom: .55rem;
     padding-top: .55rem;
 }
@@ -83,20 +87,22 @@ h1 {
     border-radius: 0.3rem;
 }
 
-@media only screen and (max-width: 775px) {
+.navbar-toggler-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/59/Hamburger_icon_white.svg');
+}
+
+
+/* @media only screen and (max-width: 775px) {
     .main-title {
         font-size: 40pt;
     }
 }
 
-/* Hide the link that should open and close the navbar on small screens */
-
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the navbar (.icon) */
 @media screen and (max-width: 775px) {
     .navbar {
         display: none;
     }
-}
+} */
 
 /* The "responsive" class is added to the navbar with JavaScript when the user clicks on the icon. This class makes the navbar look good on small screens (display the links vertically instead of horizontally) */
 
@@ -161,4 +167,5 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    align-items: center;
 }
