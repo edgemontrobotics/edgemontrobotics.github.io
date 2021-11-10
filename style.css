@@ -2,10 +2,11 @@
     text-align: center;
     padding: 20em 0;
     color:#fff;
+    filter: brightness(100%);
 }
 
 .pr-header-image {
-    background-image: url('https://wallpapercave.com/wp/wp4820281.jpg');
+    background-image: url('img/programming\ header2.jpg');
     background-repeat: no-repeat;
     background-position-x: center; 
 }
@@ -168,4 +169,12 @@ h1 {
     justify-content: center;
     gap: 10px;
     align-items: center;
+}
+
+.contact {
+    background-color: #3046b5;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: white;
+    text-align: center;
 }
