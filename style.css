@@ -1,14 +1,21 @@
 .header {
     text-align: center;
     padding: 20em 0;
-    color:#fff;
+    color: #fff;
     filter: brightness(100%);
 }
 
 .pr-header-image {
     background-image: url('img/programming\ header2.jpg');
     background-repeat: no-repeat;
-    background-position-x: center; 
+    background-position-x: center;
+}
+
+.or-header-image {
+    background-image: url('img/Website-Cropped-01 copy.jpeg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 50px;
 }
 
 h1 {
@@ -16,7 +23,7 @@ h1 {
 }
 
 .mission-statement {
-    background-color:#3046b5;
+    background-color: #3046b5;
     text-align: center;
     padding: 5% 0;
     color: #fff;
@@ -32,9 +39,6 @@ h1 {
     font-size: 30pt;
 }
 
-/* NAVBAR */
-
-/* Add a black background color to the top navigation */
 .navbar {
     background-color: #fff;
     /* ov/erflow: hidden; */
@@ -46,7 +50,6 @@ h1 {
     padding-right: .5rem;
 }
 
-/* Style the links inside the navigation bar */
 .navbar a {
     float: right;
     display: block;
@@ -74,14 +77,12 @@ h1 {
     background-color: #212121;
 }
 
-/* Change the color of links on hover */
 .navbar a:hover {
     background-color: #044caaa1;
     color: black;
     border-radius: 0.3rem;
 }
 
-/* Add an active class to highlight the current page */
 .navbar a.active {
     background-color: #044caa;
     color: white;
@@ -92,31 +93,10 @@ h1 {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/59/Hamburger_icon_white.svg');
 }
 
-
-/* @media only screen and (max-width: 775px) {
-    .main-title {
-        font-size: 40pt;
-    }
-}
-
-@media screen and (max-width: 775px) {
-    .navbar {
-        display: none;
-    }
-} */
-
-/* The "responsive" class is added to the navbar with JavaScript when the user clicks on the icon. This class makes the navbar look good on small screens (display the links vertically instead of horizontally) */
-
-
-
 .img1 {
     width: 50%;
     height: 100%;
 }
-
-/* .outreach-images img1 img {
-    height: 200px;
-} */
 
 .img2 {
     width: 50%;
@@ -127,44 +107,13 @@ h1 {
     width: 50%;
     height: 50%;
 }
-/* 
-.membership-level>ul{
-    list-style: none;
-    display: flex !important;
-    justify-content: center !important;
-    padding-left: 0;
-    list-style: none;
-    margin-bottom: 1rem;
-    flex-wrap: wrap
-}
-.membership-level>ul li{
-    display: flex;
-    padding:.33333rem 1rem;
-    white-space:nowrap
-}
-.membership-level>ul li:after{
-    display:none
-}
-.membership-level>ul a{
-    text-decoration:underline;
-    white-space:normal
-}
-.membership-level>ul a img{
-    transition:transform ease-in-out 100ms
-}
-.membership-level>ul a img:hover{
-    transform:scale(1.05)
-}
-.membership-level>ul img{
-    max-width:100%
-} */
 
-.membership-level>ul{
+.membership-level>ul {
     list-style: none;
     display: flex;
     width: 100vw;
     margin-top: 10px;
-    flex-basis:30%;
+    flex-basis: 30%;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
@@ -177,4 +126,10 @@ h1 {
     padding-bottom: 10%;
     color: white;
     text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-nav {
+        display: none;
+    }
 }
