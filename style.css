@@ -12,6 +12,7 @@
 
 .carousel-inner img {
     align-items: center;
+    padding-top: 10px;
     
 }
 
@@ -150,3 +151,13 @@ h1 {
         display: none;
     }
 }
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 64pt;
+    font-weight: 500
+  }
