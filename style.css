@@ -18,6 +18,13 @@
     background-position-y: 50px;
 }
 
+.me-header-image {
+    background-image: url('img/Website-Cropped-04.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -120px;
+}
+
 h1 {
     font-size: 64pt;
 }
