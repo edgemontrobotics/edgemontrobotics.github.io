@@ -5,6 +5,16 @@
     filter: brightness(100%);
 }
 
+.home-header {
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-inner img {
+    align-items: center;
+    
+}
+
 .pr-header-image {
     background-image: url('img/programming\ header2.jpg');
     background-repeat: no-repeat;
