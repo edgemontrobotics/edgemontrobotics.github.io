@@ -11,9 +11,15 @@
 }
 
 .carousel-inner img {
-    align-items: center;
     padding-top: 10px;
     
+}
+
+.carousel-item img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    filter: brightness(50%);
 }
 
 .pr-header-image {
