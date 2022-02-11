@@ -2,7 +2,6 @@
     text-align: center;
     padding: 20em 0;
     color: #fff;
-    filter: brightness(100%);
 }
 
 .home-header {
@@ -166,4 +165,17 @@ h1 {
     transform: translate(-50%, -50%);
     font-size: 64pt;
     font-weight: 500
-  }
+}
+
+.gdoc {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 5% 0;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
