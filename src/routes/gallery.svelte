@@ -11,7 +11,7 @@
 </header>
 
 <div class="gallery-container">
-	<div class="w-4 h-3" data-aos="fade-up">
+	<div class="w-4 h-3" data-aos="fade-right">
 		<div class="gallery-item">
 			<div class="gallery-image">
 				<img src="./gallery/DSC_4349_cropped.JPG" alt="nature" />
@@ -19,7 +19,7 @@
 			<div class="text"></div>
 		</div>
 	</div>
-	<div class="w-2 h-3" data-aos="fade-up">
+	<div class="w-2 h-3" data-aos="fade-left">
 		<div class="gallery-item">
 			<div class="gallery-image">
 				<img src="./gallery/DSC_4364_cropped.JPG" alt="nature" />
@@ -43,15 +43,15 @@
 			<div class="text"></div>
 		</div>
 	</div>
-	<div class="w-4 h-3" data-aos="fade-up">
+	<div class="w-4 h-3" data-aos="fade-right">
 		<div class="gallery-item">
 			<div class="gallery-image">
-				<img src="./gallery/DSC_4374_cropped.JPG" alt="nature" />
+				<img src="./photos/team_photo_fall.png" alt="nature" />
 			</div>
 			<div class="text"></div>
 		</div>
 	</div>
-	<div class="w-2 h-3" data-aos="fade-up">
+	<div class="w-2 h-3" data-aos="fade-left">
 		<div class="gallery-item">
 			<div class="gallery-image">
 				<img src="./gallery/DSC_4371_cropped.JPG" alt="nature" />
@@ -59,6 +59,79 @@
 			<div class="text"></div>
 		</div>
 	</div>
+	<div class="w-3 h-3" data-aos="fade-up">
+		<div class="gallery-item">
+			<div class="gallery-image">
+				<img src="./gallery/DSC_4374_cropped.JPG" alt="nature" />
+			</div>
+			<div class="text"></div>
+		</div>
+	</div>
+	<div class="w-3 h-3" data-aos="fade-up">
+		<div class="gallery-item">
+			<div class="gallery-image">
+				<img src="./gallery/20220213_140848_cropped.jpg" alt="nature" />
+			</div>
+			<div class="text"></div>
+		</div>
+	</div>
+	<div class="w-4 h-2" data-aos="fade-right">
+		<div class="gallery-item">
+			<div class="gallery-image">
+				<img src="./logo_fullname.svg" alt="nature" />
+			</div>
+			<div class="text"></div>
+		</div>
+	</div>
+	<div class="w-2 h-2" data-aos="fade-left">
+		<div class="gallery-item">
+			<div class="gallery-image">
+				<img src="./gallery/20220213_131504_cropped.jpg" alt="nature" />
+			</div>
+			<div class="text"></div>
+		</div>
+	</div>
+	<div class="w-2 h-4" data-aos="fade-right">
+		<div class="gallery-item">
+			<div class="gallery-image">
+				<img src="./gallery/IMG_9375.jpg" alt="nature" />
+			</div>
+			<div class="text"></div>
+		</div>
+	</div>
+	<div class="w-2 h-2" data-aos="fade-up">
+		<div class="gallery-item">
+			<div class="gallery-image">
+				<img src="./gallery/IMG_2170.jpg" alt="nature" />
+			</div>
+			<div class="text"></div>
+		</div>
+	</div>
+	<div class="w-2 h-4" data-aos="fade-left">
+		<div class="gallery-item">
+			<div class="gallery-image">
+				<img src="./gallery/IMG_9371.jpg" alt="nature" />
+			</div>
+			<div class="text"></div>
+		</div>
+	</div>
+	<div class="w-2 h-2" data-aos="fade-up">
+		<div class="gallery-item">
+			<div class="gallery-image">
+				<img src="./gallery/DSC_4405_cropped.JPG" alt="nature" />
+			</div>
+			<div class="text"></div>
+		</div>
+	</div>
+	<div class="w-6 h-4" data-aos="fade-up">
+		<div class="gallery-item">
+			<div class="gallery-image">
+				<img src="./gallery/scrimmage.jpg" alt="nature" />
+			</div>
+			<div class="text"></div>
+		</div>
+	</div>
+
 </div>
 <div class="h-1 h-2 h-3 h-4 h-5 h-6 w-1 w-2 w-3 w-4 w-5 w-6"></div>
 
