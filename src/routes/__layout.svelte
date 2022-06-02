@@ -10,7 +10,6 @@
 </script>
 
 
-<Navbar/>
-    <AOS/>
+<Navbar />
     <slot />
-<Footer/>
+<Footer />

@@ -2,7 +2,7 @@
 	<title>Programming - Edgemont Robotics</title>
 </svelte:head>
 
-<header>
+<header class="header">
 	<div class="inner">
 		<div class="banner-splash">
 			<h1 class="banner-title">Programming</h1>
@@ -61,35 +61,6 @@
 </div>
 
 <style>
-	header {
-		height: 820px;
-		background-image: url('./banner_bg.png');
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-	}
-
-	.inner {
-		background: rgba(65, 105, 225, 0.5);
-		overflow: hidden;
-		height: 100%;
-	}
-
-	.banner-splash {
-		position: relative;
-		margin: 500px 0 0 200px;
-		color: white;
-		width: 800px;
-	}
-
-	.banner-title {
-		font-size: 84px;
-		font-weight: 700;
-		line-height: 120%;
-		font-family: var(--font-display);
-		margin: 0;
-	}
-
 	.row {
 		padding: 120px 40px 120px 40px;
 		/* Top, Right, Bottom, Left */
@@ -104,5 +75,13 @@
 	}
 	.noHeightLimit{
 		max-height: 100%;
+	}
+	@media screen and (max-width: 768px) {
+		.design-padding {
+			padding: 20px 40px 20px 40px;
+		}
+		.row {
+			padding: 60px 40px 60px 40px;
+		}
 	}
 </style>

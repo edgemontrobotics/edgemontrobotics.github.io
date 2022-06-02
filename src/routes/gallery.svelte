@@ -2,7 +2,7 @@
 	<title>Gallery - Edgemont Robotics</title>
 </svelte:head>
 
-<header>
+<header class="header">
 	<div class="inner">
 		<div class="banner-splash">
 			<h1 class="banner-title">Gallery</h1>
@@ -121,34 +121,6 @@
 <div class="h-1 h-2 h-3 h-4 h-5 h-6 w-1 w-2 w-3 w-4 w-5 w-6"></div>
 
 <style>
-	header {
-		height: 820px;
-		background: linear-gradient(90deg, #b473f5, #e292aa);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-	}
-	.inner {
-		background-image: url('./illustrations/undraw_camera_re_cnp4.svg');
-		background-repeat: no-repeat;
-		background-size: contain;
-		background-position: center;
-		overflow: hidden;
-		height: 100%;
-	}
-	.banner-splash {
-		position: relative;
-		margin: 500px 0 0 200px;
-		color: white;
-		width: 800px;
-	}
-	.banner-title {
-		font-size: 84px;
-		font-weight: 700;
-		line-height: 120%;
-		font-family: var(--font-display);
-		margin: 0;
-	}
 	.gallery-container {
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);

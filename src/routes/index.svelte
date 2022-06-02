@@ -3,7 +3,7 @@
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </svelte:head>
 
-<header>
+<header class="header">
 	<div class="inner">
 		<div class="banner-splash">
 			<h1 class="banner-title">Edgemont Robotics</h1>
@@ -14,7 +14,7 @@
 
 <div>
 	<div class="grid">
-		<div class="row containter leftImage visible" data-aos="fade-up">
+		<div class="row containter leftImage visible">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./photos/team_photo_fall.png" />
 			<div class="description">
@@ -30,7 +30,7 @@
 		</div>
 	</div>
 	<div class="grid grey-background">
-		<div class="row containter rightImage visible" data-aos="fade-up">
+		<div class="row containter rightImage visible">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./photos/21Robot_Render_cropped.png" />
 			<div class="description">
@@ -44,7 +44,7 @@
 		</div>
 	</div>
 	<div class="grid">
-		<div class="row containter leftImage visible" data-aos="fade-up">
+		<div class="row containter leftImage visible">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./illustrations/undraw_team_up_ip2x.svg" />
 			<div class="description">
@@ -58,7 +58,7 @@
 		</div>
 	</div>
 	<div class="grid grey-background">
-		<div class="eng-portfolio" data-aos="fade-up">
+		<div class="eng-portfolio">
 			<a
 				href="https://docs.google.com/document/d/1K2HBo31_Uack4QTbKGU6tca6Uu0lDzW8jU99CqqPp2U/"
 				target="_blank"><h2 class="h2 h2-ep">Engineering Portfolio</h2></a
@@ -66,59 +66,12 @@
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<iframe
 				src="https://docs.google.com/document/d/1K2HBo31_Uack4QTbKGU6tca6Uu0lDzW8jU99CqqPp2U/preview?usp=embed_googleplus"
-				width="800"
-				height="800"
 			/>
 		</div>
 	</div>
 </div>
 
 <style>
-	header {
-		height: 820px;
-		background-image: url('./banner_bg.png');
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-	}
-
-	.inner {
-		background: rgba(65, 105, 225, 0.5);
-		overflow: hidden;
-		height: 100%;
-	}
-
-	.banner-splash {
-		position: relative;
-		margin: 500px 0 0 200px;
-		color: white;
-		width: 800px;
-	}
-
-	.banner-title {
-		font-size: 84px;
-		font-weight: 700;
-		line-height: 120%;
-		font-family: var(--font-display);
-		margin: 0;
-	}
-
-	.banner-subtitle {
-		font-size: 44px;
-		font-weight: 500;
-		line-height: 120%;
-		font-family: var(--font-primary);
-		margin: 0;
-	}
-
-	.h2 {
-		font-size: 48px;
-		font-weight: 700;
-		line-height: 120%;
-		font-family: var(--font-display);
-		margin: 0;
-	}
-
 	.text {
 		font-size: clamp(16px, 2vw, 20px);
 		font-family: var(--font-primary);
@@ -165,6 +118,8 @@
 
 	iframe {
 		border: 0;
+		width: 800px;
+		height: 800px;
 	}
 	.eng-portfolio a {
 		text-decoration: none;
@@ -239,6 +194,16 @@
 			-webkit-box-ordinal-group: 2;
 			-ms-flex-order: 1;
 			order: 1;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		iframe {
+			width: 320px;
+			height: 500px;
+		}
+		.row {
+			padding: 60px 40px 60px 40px;
 		}
 	}
 </style>

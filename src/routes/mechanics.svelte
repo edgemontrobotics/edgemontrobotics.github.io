@@ -2,7 +2,7 @@
 	<title>Mechanics - Edgemont Robotics</title>
 </svelte:head>
 
-<header>
+<header class="header">
 	<div class="inner">
 		<div class="banner-splash">
 			<h1 class="banner-title">Mechanics</h1>
@@ -12,7 +12,7 @@
 
 <div>
 	<div class="grid">
-		<div class="row containter rightImage visible row-padding" data-aos="fade-up">
+		<div class="row containter rightImage visible row-padding">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img
 				class="image featureImage"
@@ -30,11 +30,11 @@
 			</div>
 		</div>
 	</div>
-	<h2 class="h2 design-title grey-background" data-aos="fade-up">
+	<h2 class="h2 design-title grey-background">
 		The Edgemont Robotics Design Process&trade;
 	</h2>
 	<div class="grid">
-		<div class="row containter leftImage visible design-padding" data-aos="fade-up">
+		<div class="row containter leftImage visible design-padding">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./mechanics/sketch.png" />
 			<div class="description">
@@ -50,7 +50,7 @@
 		</div>
 	</div>
 	<div class="grid grey-background">
-		<div class="row containter rightImage visible design-padding" data-aos="fade-up">
+		<div class="row containter rightImage visible design-padding">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./mechanics/design1.png" />
 			<div class="description">
@@ -66,7 +66,7 @@
 		</div>
 	</div>
 	<div class="grid">
-		<div class="row containter leftImage visible design-padding" data-aos="fade-up">
+		<div class="row containter leftImage visible design-padding">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./mechanics/design2.png" />
 			<div class="description">
@@ -82,7 +82,7 @@
 		</div>
 	</div>
 	<div class="grid grey-background">
-		<div class="row containter rightImage visible design-padding" data-aos="fade-up">
+		<div class="row containter rightImage visible design-padding">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./mechanics/render1.png" />
 			<div class="description">
@@ -98,7 +98,7 @@
 		</div>
 	</div>
 	<div class="grid">
-		<div class="row containter leftImage visible design-padding" data-aos="fade-up">
+		<div class="row containter leftImage visible design-padding">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./photos/21Robot_Render_cropped.png" />
 			<div class="description">
@@ -114,9 +114,9 @@
 		</div>
 	</div>
 	<div class="grid grey-background">
-		<div class="visible design-padding" data-aos="fade-up">
+		<div class="visible video-padding">
 			<!-- svelte-ignore a11y-media-has-caption -->
-			<video class="video" controls loop width="1260" height="auto">
+			<video class="video" controls loop>
 				<source src="./mechanics/robot_low.mp4" type="video/mp4" />
 			</video>
 		</div>
@@ -124,34 +124,6 @@
 </div>
 
 <style>
-	header {
-		height: 820px;
-		background-image: url('./banner_bg.png');
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-	}
-
-	.inner {
-		background: rgba(65, 105, 225, 0.5);
-		overflow: hidden;
-		height: 100%;
-	}
-
-	.banner-splash {
-		position: relative;
-		margin: 500px 0 0 200px;
-		color: white;
-		width: 800px;
-	}
-
-	.banner-title {
-		font-size: 84px;
-		font-weight: 700;
-		line-height: 120%;
-		font-family: var(--font-display);
-		margin: 0;
-	}
 	.design-title {
 		padding: 60px 40px 60px 40px;
 		text-align: center;
@@ -160,9 +132,26 @@
 		padding: 120px 40px 120px 40px;
 		/* Top, Right, Bottom, Left */
 	}
-	.design-padding {
+	.design-padding, .video-padding {
 		padding: 60px 40px 60px 40px;
 		/* Top, Right, Bottom, Left */
-		min-height: 560px;
+		min-height: 100%;
 	}
+	.video {
+		width: 70vw;
+		height: auto;
+	}
+	@media screen and (max-width: 768px) {
+		.video {
+			width: 80vw;
+			height: auto;
+		}
+		.video-padding, .design-padding {
+			padding: 20px 40px 20px 40px;
+		}
+		.row {
+			padding: 60px 40px 60px 40px;
+		}
+	}
+
 </style>

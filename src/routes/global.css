@@ -40,10 +40,10 @@
     opacity: 0;
     -webkit-transform: translateY(50px);
     transform: translateY(50px);
-    -webkit-transition: opacity .6s .1s,-webkit-transform .6s ease;
-    transition: opacity .6s .1s,-webkit-transform .6s ease;
-    transition: opacity .6s .1s,transform .6s ease;
-    transition: opacity .6s .1s,transform .6s ease,-webkit-transform .6s ease;
+    -webkit-transition: opacity .6s .1s, -webkit-transform .6s ease;
+    transition: opacity .6s .1s, -webkit-transform .6s ease;
+    transition: opacity .6s .1s, transform .6s ease;
+    transition: opacity .6s .1s, transform .6s ease, -webkit-transform .6s ease;
 }
 
 .visible {
@@ -58,7 +58,8 @@
 }
 
 .h2 {
-    font-size: 48px;
+    font-size: 32px;
+    font-size: clamp(20px, 4vw, 40px);
     font-weight: 700;
     line-height: 120%;
     font-family: var(--font-display);
@@ -78,10 +79,12 @@
     grid-column: span 4;
     grid-column: span var(--num-grid-columns);
 }
+
 .leftImage .description,
 .rightImage .description {
     margin-top: 20px;
 }
+
 .image {
     grid-column: span 4;
     grid-column: span var(--num-grid-columns);
@@ -90,8 +93,42 @@
     object-fit: cover;
     margin-top: 24px;
 }
+
 .keyword {
     color: var(--royal-blue);
+}
+
+.header {
+    height: 820px;
+    background-image: url('./banner_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.inner {
+    background: rgba(65, 105, 225, 0.5);
+    overflow: hidden;
+    height: 100%;
+}
+.banner-splash {
+    position: relative;
+    margin: 500px 0 0 200px;
+    color: white;
+    width: 800px;
+}
+.banner-title {
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 120%;
+    font-family: var(--font-display);
+    margin: 0;
+}
+.banner-subtitle {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 120%;
+    font-family: var(--font-primary);
+    margin: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -216,4 +253,28 @@
     --text-link: #00b0f4;
     --page-max-width: 1260px;
     --page-max-width-med: 1024px;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-splash {
+        margin: 300px 0 0 10px;
+        /* Top, Right, Bottom, Left */
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 54px;
+    }
+
+    .banner-subtitle {
+        font-size: 24px;
+    }
+
+    .eng-portfolio {
+        padding: 80px 40px 80px 40px;
+        /* Top, Right, Bottom, Left */
+    }
+    .header {
+        height: 600px;
+    }
 }
