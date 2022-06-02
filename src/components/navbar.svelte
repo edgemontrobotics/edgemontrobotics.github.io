@@ -7,14 +7,14 @@
 		<nav class="nav">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<a class="logoLink logo" href="./">
-				<img src="./logo_fullname.svg" width="200" height="auto">
+				<img src="/photos/logo_fullname.svg" width="200" height="auto">
 			</a>
 			<div class="links">
-				<a class="link" href="./mechanics">Mechanics</a>
-				<a class="link" href="./programming">Programming</a>
-				<a class="link" href="./outreach">Outreach</a>
-				<a class="link" href="./gallery">Gallery</a>
-				<a class="link" href="./team">The Team</a>
+				<a class="link" href="/mechanics">Mechanics</a>
+				<a class="link" href="/programming">Programming</a>
+				<a class="link" href="/outreach">Outreach</a>
+				<a class="link" href="/gallery">Gallery</a>
+				<a class="link" href="/team">The Team</a>
 			</div>
 		</nav>
 	</header>

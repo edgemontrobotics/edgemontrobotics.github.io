@@ -100,7 +100,7 @@
 
 .header {
     height: 820px;
-    background-image: url('./banner_bg.png');
+    background-image: url('/photos/banner_bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
