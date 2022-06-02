@@ -14,7 +14,7 @@
 	<div class="flexbox-outer">
         <!-- Lower -->
         <div data-aos="fade-up">
-            <img class="profile-picture" src="./profile-placeholder.png" alt="placeholder" width="auto" height="300">
+            <img class="profile-picture" src="./people/profile-placeholder.png" alt="placeholder" width="auto" height="300">
             <h2 class="h2">TBD</h2>
             <h3 class="h3">Faculty Advisor</h3>
         </div>

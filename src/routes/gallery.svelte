@@ -22,7 +22,7 @@
 	<div class="w-2 h-3" data-aos="fade-left">
 		<div class="gallery-item">
 			<div class="gallery-image">
-				<img src="./gallery/DSC_4364_cropped.JPG" alt="nature" />
+				<img src="./gallery/20220213_131504_cropped.jpg" alt="nature" />
 			</div>
 			<div class="text"></div>
 		</div>
@@ -75,22 +75,7 @@
 			<div class="text"></div>
 		</div>
 	</div>
-	<div class="w-4 h-2" data-aos="fade-right">
-		<div class="gallery-item">
-			<div class="gallery-image">
-				<img src="./logo_fullname.svg" alt="nature" />
-			</div>
-			<div class="text"></div>
-		</div>
-	</div>
-	<div class="w-2 h-2" data-aos="fade-left">
-		<div class="gallery-item">
-			<div class="gallery-image">
-				<img src="./gallery/20220213_131504_cropped.jpg" alt="nature" />
-			</div>
-			<div class="text"></div>
-		</div>
-	</div>
+
 	<div class="w-2 h-4" data-aos="fade-right">
 		<div class="gallery-item">
 			<div class="gallery-image">
