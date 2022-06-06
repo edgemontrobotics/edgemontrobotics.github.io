@@ -31,7 +31,7 @@
 		</div>
 	</div>
 	<h2 class="h2 design-title grey-background">
-		The Edgemont Robotics Design Process&trade;
+		The Robot Design Process
 	</h2>
 	<div class="grid">
 		<div class="row containter leftImage visible design-padding">

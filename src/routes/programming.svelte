@@ -27,7 +27,7 @@
 		</div>
 	</div>
 	<h2 class="h2 design-title grey-background" data-aos="fade-up">
-		The Edgemont Robotics CameraVision&trade System
+		Creating Camera Vision
 	</h2>
 	<div class="grid">
 		<div class="row containter leftImage visible design-padding" data-aos="fade-up">
@@ -36,7 +36,7 @@
 			<div class="description">
 				<h2 class="h2">A little bit of code</h2>
 				<div class="text">
-					For the 2021-22 season, we created the Edgemont Robotics CameraVision&trade System.
+					For the 2021-22 season, we created our own Camera Vision system.
 					This system allows the cameras on the robot to recognize the color of an object infront of
 					it. Then the code figures out whether the green is present in the left, middle, or right
 					of the picture. Our code uses HSV coloring techniques, saturation curves, and brightness
@@ -51,9 +51,9 @@
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./programming/cameravision.png" />
 			<div class="description">
-				<h2 class="h2">CameraVision&trade in action</h2>
+				<h2 class="h2">Camera Vision in action</h2>
 				<div class="text">
-					This image shows CameraVision&trade in action. It is a simple example of what the robot "sees" and how it is able to recognize how much green is in the picture.
+					This image shows Camera Vision in action. It is a simple example of what the robot "sees" and how it is able to recognize how much green is in the picture.
 				</div>
 			</div>
 		</div>
