@@ -49,7 +49,6 @@ This will commit all of the files in the newly created `build` folder to a seper
 ## Commiting changes
 Please make sure you commit all of the changes you make to the website. To do this, go to the bar on the left and select the "Source Control" button. It should be under the "Explorer" button you pressed to clone the repo. Enter a message of what you changed in the box (you are limited to 50 characters unless you make a new line with Shift+Enter). Once your commit message is entered, click the check mark button to commit your changes. This will push your changes to the remote repo.
 
----
 ## Credits
 
 [SvelteKit](https://kit.svelte.dev/)\
