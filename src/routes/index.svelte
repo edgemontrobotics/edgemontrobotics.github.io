@@ -13,7 +13,7 @@
 </header>
 
 <div>
-	<div class="grid">
+	<div class="grid no-overflow">
 		<div class="row containter leftImage visible">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./photos/team_photo_fall.png" />
@@ -29,7 +29,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid grey-background">
+	<div class="grid grey-background no-overflow">
 		<div class="row containter rightImage visible">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./photos/21Robot_Render_cropped.png" />
@@ -43,7 +43,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid">
+	<div class="grid no-overflow">
 		<div class="row containter leftImage visible">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./illustrations/undraw_team_up_ip2x.svg" />
@@ -57,7 +57,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid grey-background">
+	<div class="grid grey-background no-overflow">
 		<div class="eng-portfolio">
 			<a
 				href="https://docs.google.com/document/d/1K2HBo31_Uack4QTbKGU6tca6Uu0lDzW8jU99CqqPp2U/"

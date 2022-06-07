@@ -14,7 +14,7 @@
 </header>
 
 <div>
-	<div class="grid">
+	<div class="grid no-overflow">
 		<div class="row containter rightImage visible" data-aos="fade-up">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./illustrations/undraw_team_collaboration_re_ow29.svg" />
@@ -30,7 +30,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid partnersContainer grey-background">
+	<div class="grid partnersContainer grey-background no-overflow">
 		<h2 class="h2" data-aos="fade-up">Our Partners</h2>
 		<div class="logos" data-aos="fade-up">
 			<a href="https://edgemontptsa.org/" target="_blank"
@@ -109,7 +109,7 @@
 			>
 		</div>
 	</div>
-	<div class="grid">
+	<div class="grid no-overflow">
 		<div class="work-with-us" data-aos="fade-up">
 			<h2 class="h2">Work with us!</h2>
 			<!-- svelte-ignore a11y-missing-attribute -->

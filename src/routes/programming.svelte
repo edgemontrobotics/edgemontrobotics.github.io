@@ -11,7 +11,7 @@
 </header>
 
 <div>
-	<div class="grid">
+	<div class="grid no-overflow">
 		<div class="row containter leftImage visible" data-aos="fade-up">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./illustrations/undraw_firmware_re_fgdy.svg" />
@@ -29,7 +29,7 @@
 	<h2 class="h2 design-title grey-background" data-aos="fade-up">
 		Creating Camera Vision
 	</h2>
-	<div class="grid">
+	<div class="grid no-overflow">
 		<div class="row containter leftImage visible design-padding" data-aos="fade-up">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage noHeightLimit" src="./programming/code.png" />
@@ -46,7 +46,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid grey-background">
+	<div class="grid grey-background no-overflow">
 		<div class="row containter rightImage visible design-padding" data-aos="fade-up">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./programming/cameravision.png" />

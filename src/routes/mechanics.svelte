@@ -11,7 +11,7 @@
 </header>
 
 <div>
-	<div class="grid">
+	<div class="grid no-overflow">
 		<div class="row containter rightImage visible row-padding">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img
@@ -33,7 +33,7 @@
 	<h2 class="h2 design-title grey-background">
 		The Robot Design Process
 	</h2>
-	<div class="grid">
+	<div class="grid no-overflow">
 		<div class="row containter leftImage visible design-padding">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./mechanics/sketch.png" />
@@ -49,7 +49,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid grey-background">
+	<div class="grid grey-background no-overflow">
 		<div class="row containter rightImage visible design-padding">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./mechanics/design1.png" />
@@ -65,7 +65,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid">
+	<div class="grid no-overflow">
 		<div class="row containter leftImage visible design-padding">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./mechanics/design2.png" />
@@ -81,7 +81,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid grey-background">
+	<div class="grid grey-background no-overflow">
 		<div class="row containter rightImage visible design-padding">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./mechanics/render1.png" />
@@ -97,7 +97,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid">
+	<div class="grid no-overflow">
 		<div class="row containter leftImage visible design-padding">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./photos/21Robot_Render_cropped.png" />
@@ -113,7 +113,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="grid grey-background">
+	<div class="grid grey-background no-overflow">
 		<div class="visible video-padding">
 			<!-- svelte-ignore a11y-media-has-caption -->
 			<video class="video" controls loop>

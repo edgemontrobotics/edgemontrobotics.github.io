@@ -97,7 +97,9 @@
 .keyword {
     color: var(--royal-blue);
 }
-
+.no-overflow {
+    overflow: hidden;
+}
 .header {
     height: 820px;
     background-image: url('/photos/banner_bg.png');
@@ -195,6 +197,18 @@
         -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
         order: 1;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .banner-splash {
+        margin: 500px 0 0 100px;
+    }
+    .banner-title {
+        font-size: 64px;
+    }
+    .banner-subtitle {
+        font-size: 34px;
     }
 }
 

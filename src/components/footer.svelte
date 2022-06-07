@@ -42,6 +42,7 @@
 
 <style>
 	.footer-container {
+		gap: 20px;
 		display: flex;
 		justify-content: center;
 		height: 250px;

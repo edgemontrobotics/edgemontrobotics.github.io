@@ -11,7 +11,7 @@
 </header>
 
 <div>
-	<div class="flexbox-outer">
+	<div class="flexbox-outer no-overflow">
         <!-- Lower -->
         <div data-aos="fade-up">
             <img class="profile-picture" src="./people/profile-placeholder.png" alt="placeholder" width="300" height="300">
