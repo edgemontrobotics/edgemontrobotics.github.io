@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-3bd27ca8.js",
+    "file": "start-bc88c4a1.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-1973e707.js"
+      "_index-e7fd16c5.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
@@ -18,99 +18,111 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-18555341.js",
+    "file": "pages/__layout.svelte-137513dd.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-1973e707.js"
+      "_index-e7fd16c5.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-e2e24fae.css"
+      "assets/pages/__layout.svelte-e492e40b.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-32472ca3.js",
+    "file": "error.svelte-864fef98.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-1973e707.js"
+      "_index-e7fd16c5.js"
     ]
   },
   "src/routes/gallery.svelte": {
-    "file": "pages/gallery.svelte-061d657a.js",
+    "file": "pages/gallery.svelte-511adc18.js",
     "src": "src/routes/gallery.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-1973e707.js"
+      "_index-e7fd16c5.js",
+      "_Saos-3faea5c3.js"
     ],
     "css": [
-      "assets/pages/gallery.svelte-38bbc2f1.css"
+      "assets/pages/gallery.svelte-dc1247e7.css"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-12d6d349.js",
+    "file": "pages/index.svelte-599457c6.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-1973e707.js"
+      "_index-e7fd16c5.js",
+      "_Saos-3faea5c3.js"
     ],
     "css": [
-      "assets/pages/index.svelte-f86d32ea.css"
+      "assets/pages/index.svelte-fb752054.css"
     ]
   },
   "src/routes/mechanics.svelte": {
-    "file": "pages/mechanics.svelte-86caf86d.js",
+    "file": "pages/mechanics.svelte-449ec9c4.js",
     "src": "src/routes/mechanics.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-1973e707.js"
+      "_index-e7fd16c5.js",
+      "_Saos-3faea5c3.js"
     ],
     "css": [
-      "assets/pages/mechanics.svelte-3ae7ac16.css"
+      "assets/pages/mechanics.svelte-fe0fe015.css"
     ]
   },
   "src/routes/outreach.svelte": {
-    "file": "pages/outreach.svelte-eaad2edd.js",
+    "file": "pages/outreach.svelte-a9c764cc.js",
     "src": "src/routes/outreach.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-1973e707.js"
+      "_index-e7fd16c5.js",
+      "_Saos-3faea5c3.js"
     ],
     "css": [
-      "assets/pages/outreach.svelte-be6d74ae.css"
+      "assets/pages/outreach.svelte-13792400.css"
     ]
   },
   "src/routes/programming.svelte": {
-    "file": "pages/programming.svelte-bae08ff1.js",
+    "file": "pages/programming.svelte-8392376a.js",
     "src": "src/routes/programming.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-1973e707.js"
+      "_index-e7fd16c5.js",
+      "_Saos-3faea5c3.js"
     ],
     "css": [
-      "assets/pages/programming.svelte-1abb572c.css"
+      "assets/pages/programming.svelte-108c9c92.css"
     ]
   },
   "src/routes/team.svelte": {
-    "file": "pages/team.svelte-15fd013b.js",
+    "file": "pages/team.svelte-3bef8876.js",
     "src": "src/routes/team.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-1973e707.js"
+      "_index-e7fd16c5.js",
+      "_Saos-3faea5c3.js"
     ],
     "css": [
-      "assets/pages/team.svelte-a77e60d8.css"
+      "assets/pages/team.svelte-e292c244.css"
     ]
   },
-  "_index-1973e707.js": {
-    "file": "chunks/index-1973e707.js"
+  "_index-e7fd16c5.js": {
+    "file": "chunks/index-e7fd16c5.js"
+  },
+  "_Saos-3faea5c3.js": {
+    "file": "chunks/Saos-3faea5c3.js",
+    "imports": [
+      "_index-e7fd16c5.js"
+    ]
   }
 }
