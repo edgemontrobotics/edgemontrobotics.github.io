@@ -28,7 +28,7 @@
     "svelte": "^3.44.3",
     "svelte-check": "^2.2.12",
     "svelte-popperjs": "^1.2.10",
-    "typescript": "~4.6.4"
+    "typescript": "~4.7.3"
   },
   "type": "module",
   "dependencies": {
