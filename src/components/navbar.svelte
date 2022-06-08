@@ -43,13 +43,11 @@
 			<img src="/photos/logo_fullname.svg" width="200" height="auto" />
 		</a>
 		<button class="toggle-button" id="sidebarButton" on:click="{openNav}">
-			<span class="bar" />
-			<span class="bar" />
-			<span class="bar" />
+			<List color="white" weight="bold" size={32} />
 		</button>
 	</div>
 	<div class="sidebar" id="sidebar">
-		<a href="." class="closebtn" on:click={closeNav}><Cross color="black" weight="fill" size={32} /></a>
+		<a href="." class="closebtn" on:click={closeNav}><Cross color="black" weight="bold" size={32} /></a>
 		<a class="link" href="/" on:click={closeNav}>Home</a>
 		<a class="link" href="/mechanics" on:click={closeNav}>Mechanics</a>
 		<a class="link" href="/programming" on:click={closeNav}>Programming</a>
@@ -141,14 +139,6 @@
 		display: none;
 		flex-direction: column;
 		justify-content: space-between;
-		width: 30px;
-		height: 21px;
-	}
-	.toggle-button .bar {
-		height: 3px;
-		width: 100%;
-		background-color: white;
-		border-radius: 10px;
 	}
 
 	@media screen and (max-width: 850px) {
@@ -194,7 +184,7 @@
 		.closebtn {
 			position: absolute;
 			top: 20px;
-			right: 15px;		
+			right: 20px;		
 			font-size: 36px;
 			margin-left: 50px;
 			text-decoration: none;

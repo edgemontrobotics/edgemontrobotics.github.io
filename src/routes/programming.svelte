@@ -1,3 +1,7 @@
+<script>
+	import Saos from 'saos';
+</script>
+
 <svelte:head>
 	<title>Programming - Edgemont Robotics</title>
 </svelte:head>
@@ -12,6 +16,7 @@
 
 <div>
 	<div class="grid no-overflow">
+		<Saos animation={'fade-in-up .75s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'} once={true} top={250}>
 		<div class="row containter leftImage visible" data-aos="fade-up">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./illustrations/undraw_firmware_re_fgdy.svg" />
@@ -25,11 +30,16 @@
 				</div>
 			</div>
 		</div>
+		</Saos>
 	</div>
+	<Saos animation={'fade-in-up .75s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'} once={true} top={250}>
 	<h2 class="h2 design-title grey-background" data-aos="fade-up">
 		Creating Camera Vision
 	</h2>
+	</Saos>
 	<div class="grid no-overflow">
+		<Saos animation={'fade-in-up .75s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'} once={true} top={250}>
+
 		<div class="row containter leftImage visible design-padding" data-aos="fade-up">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage noHeightLimit" src="./programming/code.png" />
@@ -45,8 +55,11 @@
 				</div>
 			</div>
 		</div>
+		</Saos>
 	</div>
 	<div class="grid grey-background no-overflow">
+		<Saos animation={'fade-in-up .75s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'} once={true} top={250}>
+
 		<div class="row containter rightImage visible design-padding" data-aos="fade-up">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<img class="image featureImage" src="./programming/cameravision.png" />
@@ -57,10 +70,22 @@
 				</div>
 			</div>
 		</div>
+		</Saos>
 	</div>
 </div>
 
 <style>
+	/* Scroll animations */
+	@keyframes -global-fade-in-up {
+		0% {
+			opacity: 0;
+			transform: translateY(3vw);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
 	.row {
 		padding: 120px 40px 120px 40px;
 		/* Top, Right, Bottom, Left */
@@ -75,6 +100,12 @@
 	}
 	.noHeightLimit{
 		max-height: 100%;
+	}
+	.header {
+		background-image: url('https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+	}
+	.inner {
+		background-color: rgba(0, 0, 0, 0.5);
 	}
 	@media screen and (max-width: 768px) {
 		.design-padding {

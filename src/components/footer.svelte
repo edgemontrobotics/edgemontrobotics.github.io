@@ -18,24 +18,23 @@
 		</div>
 	</div>
 	<div class="footer-item">
-		<Pin color="white" weight="fill" size={72} />
-		<p>200 White Oak Lane<br />Scarsdale NY, 10583</p>
+		<a href="https://goo.gl/maps/WviBYjsCjuYCUvKL9/" target="_blank" class="icon hoverable">
+			<Pin size={72} /></a>
+		<p>Come Visit Us!</p>
 	</div>
 	<div class="footer-item">
-		<Mail color="white" weight="fill" size={72} />
-		<a href="mailto:roboticsedgemont@gmail.com" target="_blank" style="text-decoration: none;"
-			><p class="hoverable">roboticsedgemont@gmail.com</p></a>
+		<a href="mailto:roboticsedgemont@gmail.com" target="_blank" class="icon hoverable">
+			<Mail size={72} /></a>
+		<p>Get in touch!</p>
 	</div>
 	<div class="footer-item">
-		<a
-			href="https://www.instagram.com/RoboticsEdgemont/"
-			target="_blank"
-			class="insta-logo hoverable"><Insta size={72} /></a>
+		<a href="https://www.instagram.com/RoboticsEdgemont/" target="_blank" class="icon hoverable">
+			<Insta size={72} /></a>
 		<p>Follow our Instagram!</p>
 	</div>
 	<div class="footer-item">
-		<a href="https://github.com/EdgemontRobotics" target="_blank" class="github-logo hoverable"
-			><GitHub size={72} /></a>
+		<a href="https://github.com/EdgemontRobotics" target="_blank" class="icon hoverable">
+			<GitHub size={72} /></a>
 		<p>See our work!</p>
 	</div>
 </div>
@@ -48,11 +47,13 @@
 		height: 250px;
 		background-color: var(--gray-black);
 	}
+
 	.footer-item {
 		display: flex;
 		align-items: center;
 		color: white;
 	}
+
 	p {
 		margin: auto 0;
 		font-family: var(--font-primary);
@@ -60,35 +61,40 @@
 		color: white;
 		padding-left: 10px;
 	}
+
 	.hoverable {
 		color: var(--royal-blue);
 		text-decoration: none;
 	}
+
 	.hoverable:hover {
 		color: grey;
 	}
-	.github-logo {
+
+	.icon {
 		margin: auto 0;
 	}
-	.insta-logo {
-		margin: auto 0;
-	}
+
 	.links {
 		display: flex;
 		flex-direction: column;
 		gap: 5px;
 	}
+
 	.link {
 		text-decoration: none;
 		color: white;
 		font-family: var(--font-primary);
 	}
+
 	.link:hover {
 		color: grey;
 	}
+
 	.quickLinks {
 		padding: 20px;
 	}
+
 	.h3 {
 		font-size: 20px;
 		font-weight: 700;
@@ -97,11 +103,36 @@
 		color: var(--royal-blue);
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 500px) {
 		.footer-container {
 			flex-direction: column;
-            height: auto;
-            padding-bottom: 20px
+			height: auto;
+			padding-bottom: 20px
+		}
+	}
+
+	@media screen and (min-width: 501px) and (max-width: 1060px) {
+		.footer-container {
+			flex-direction: row;
+			flex-direction: wrap;
+			height: auto;
+			padding-bottom: 20px
+		}
+		p {
+			font-size: 14px;
+			padding: 0;
+			margin-top: 0;
+			text-align: center;
+		}
+		.footer-item {
+			flex-direction: column;
+			max-width: 70px;
+		}
+		.icon {
+			margin-bottom: 5px;
+		}
+		.quickLinks {
+			padding-right: 0px;
 		}
 	}
 </style>
