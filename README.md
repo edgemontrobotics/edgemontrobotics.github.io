@@ -52,10 +52,9 @@ Please make sure you commit all of the changes you make to the website. To do th
 ## Credits
 
 [SvelteKit](https://kit.svelte.dev/)\
-[Animate on Scroll Library](https://github.com/michalsnik/aos)\
+[Svelte Animation on Scroll](https://github.com/shiryel/saos)\
 [Phosphor Icons](https://github.com/phosphor-icons/phosphor-icons)\
 [Phosphor-Svelte](https://github.com/haruaki07/phosphor-svelte)\
 [Undraw](https://undraw.co/)\
-[gh-pages](https://github.com/tschaub/gh-pages)
-
----
+[gh-pages](https://github.com/tschaub/gh-pages)\
+[svelte-inview](https://github.com/maciekgrzybek/svelte-inview)
