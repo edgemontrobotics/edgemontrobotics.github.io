@@ -144,7 +144,7 @@
 				on:leave={() => videoRef.pause()}
 				>
 				<!-- svelte-ignore a11y-media-has-caption -->
-				<video class="video" loop bind:this={videoRef}>
+				<video class="video" loop playsinline bind:this={videoRef}>
 					<source src="./mechanics/robot_low.mp4" type="video/mp4" />
 				</video>
 			</div>
