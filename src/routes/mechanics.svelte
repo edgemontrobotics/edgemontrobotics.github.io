@@ -75,7 +75,7 @@
 					<h2 class="h2">CAD Design Process</h2>
 					<div class="text">
 						Once our sketch has been semi-finalized, we begin the Computer Aided-Design (CAD)
-						process. We use Fusion 360 to create a 3D representation of our sketch.
+						process. We use Fusion 360 to create a 3D model of our sketch.
 						<br />
 						<br />
 						CAD created by Mihir Patil ('22) and Gautam Soni ('23).
@@ -92,7 +92,7 @@
 				<div class="description">
 					<h2 class="h2">Evolving Designs</h2>
 					<div class="text">
-						Our CAD design never truly finished. It is constantly evolving throughout the year as we recognize missing
+						Our CAD design is never truly finished. It is constantly evolving throughout the year as we recognize missing
 						features and add new ones. These new features can range from support rods to a 3D printed ramp.
 						<br />
 						<br />

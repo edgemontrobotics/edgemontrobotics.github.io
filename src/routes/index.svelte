@@ -47,7 +47,7 @@
 						We are 7-12th grade STEAM focused team founded on the principle of a love for all things
 						robotics. Our team has also been incredibly resilient, and every year despite setbacks
 						has continued to improve and get closer to our ultimate goal: making it to Worlds. As a
-						culture, we celebrate Gracious Professionalism, and ensure that our environment is
+						club, we celebrate Gracious Professionalism, and ensure that our environment is
 						always incredibly open to positivity and curiosity.
 					</div>
 				</div>
@@ -63,7 +63,7 @@
 					<h2 class="h2">What do we do?</h2>
 					<div class="text">
 						Every school year, as a part of the FIRST Tech Challenge (FTC), our team must design,
-						build, program, and operate robots to compete in a head-to-head challenge in an alliance
+						build, program, and operate a robot to compete in a head-to-head challenge in an alliance
 						format. Click <a class="keyword" href="https://www.youtube.com/watch?v=I6lX12idAf8"target="_blank">here</a>
 						to see the FTC challenge game for the 2021-22 season.
 					</div>
