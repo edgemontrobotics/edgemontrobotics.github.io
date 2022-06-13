@@ -18,7 +18,9 @@
 <header class="header">
 	<div class="inner">
 		<div class="banner-splash">
-			<h1 class="banner-title">Mechanics</h1>
+			<Saos animation={'fade-in-up .75s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'} once={true} top={250}>
+				<h1 class="banner-title">Mechanics</h1>
+			</Saos>
 		</div>
 	</div>
 </header>
@@ -32,7 +34,6 @@
 				<div class="description">
 					<h2 class="h2">What does mechanics do?</h2>
 					<div class="text">
-						Like the name suggests, the mechanics team is in charge of actually building the robot.
 						Mechanics is all about fostering the imagination of young engineers. We prioritize
 						simplicity in our designs - not only does this make our process accessible to new
 						members but it's critical for allowing us to resolve our issues efficiently. We utilize
@@ -54,11 +55,12 @@
 				<div class="description">
 					<h2 class="h2">Starting from sketch</h2>
 					<div class="text">
-						Every year, we are tasked with making a new completely new robot from scratch. Before we
-						can do any building, we need to create a basic design for the robot.
+						Every year, the challenge changes. While some parts of the robot stay the same
+						year-over-year, most of the parts change. However, before we can start putting parts
+						together we need to sketch out what we want the robot to look like.
 						<br />
 						<br />
-						Sketch created by Griffin Rho ('24).
+						Sketch by Griffin Rho ('24).
 					</div>
 				</div>
 			</div>
@@ -73,8 +75,7 @@
 					<h2 class="h2">CAD Design Process</h2>
 					<div class="text">
 						Once our sketch has been semi-finalized, we begin the Computer Aided-Design (CAD)
-						process. We use CAD software to plan our robot chassis designs to ensure our time is
-						spent well.
+						process. We use Fusion 360 to create a 3D representation of our sketch.
 						<br />
 						<br />
 						CAD created by Mihir Patil ('22) and Gautam Soni ('23).
@@ -89,10 +90,10 @@
 				<!-- svelte-ignore a11y-missing-attribute -->
 				<img class="image featureImage" src="./mechanics/design2.png" />
 				<div class="description">
-					<h2 class="h2">Interations, Interations</h2>
+					<h2 class="h2">Evolving Designs</h2>
 					<div class="text">
-						Our CAD design is constantly evolving throughout the year. We are constantly working on
-						improving our designs and adding new features.
+						Our CAD design never truly finished. It is constantly evolving throughout the year as we recognize missing
+						features and add new ones. These new features can range from support rods to a 3D printed ramp.
 						<br />
 						<br />
 						CAD created by Gautam Soni ('23).
@@ -127,8 +128,8 @@
 				<div class="description">
 					<h2 class="h2">The final look</h2>
 					<div class="text">
-						After several hours of interations and additions, a final render is created. This render
-						is usually the most accurate representation of our robot.
+						After hours of design, interation, testing, and more testing, the final look of the robot comes alives. This
+						final version the combined result of over a dozen members, not just in Mechanics, but in all of our teams.
 						<br />
 						<br />
 						Render created by Mihir Patil ('22).
@@ -168,9 +169,11 @@
 	.header {
 		background-image: url('https://images.unsplash.com/photo-1600466886092-f76fabd39a61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
 	}
+
 	.inner {
 		background-color: rgba(0, 0, 0, 0.4);
 	}
+
 	.design-title {
 		padding: 60px 40px 60px 40px;
 		text-align: center;

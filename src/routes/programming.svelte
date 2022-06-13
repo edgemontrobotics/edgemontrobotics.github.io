@@ -9,7 +9,9 @@
 <header class="header">
 	<div class="inner">
 		<div class="banner-splash">
-			<h1 class="banner-title">Programming</h1>
+			<Saos animation={'fade-in-up .75s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'} once={true} top={250}>
+				<h1 class="banner-title">Programming</h1>
+			</Saos>
 		</div>
 	</div>
 </header>
@@ -23,10 +25,11 @@
 			<div class="description">
 				<h2 class="h2">What are you programming?</h2>
 				<div class="text">
-					The programming team is responsible for making sure the robot can actually be used. The
-					robot needs to be able to move on its own and with a controller. Programming is no easy
-					task, and requires hours upon hours of work and heavy collaboration with the mechanics
-					team to make sure that the code written can be effectively applied and used.
+					Programming is all about problem-solving and transferring skills developed in the classroom and in clubs and
+					applying them to real world situations. Our programmers alternate between working directly on tele-op, autonomous
+					and on developing and upholding our entirely self-written website. It's not easy task, and requires hours upon 
+					hours of work and heavy collaboration with the mechanics team to make sure that the code written can be effectively 
+					applied and used.
 				</div>
 			</div>
 		</div>
@@ -47,11 +50,10 @@
 				<h2 class="h2">A little bit of code</h2>
 				<div class="text">
 					For the 2021-22 season, we created our own Camera Vision system.
-					This system allows the cameras on the robot to recognize the color of an object infront of
-					it. Then the code figures out whether the green is present in the left, middle, or right
-					of the picture. Our code uses HSV coloring techniques, saturation curves, and brightness
+					This system allows the cameras on the robot to determine how green an object infront of
+					it is. Our code uses HSV coloring techniques, saturation curves, and brightness
 					correction to account for different lighting conditions. This information is passed to the
-					other control systems which allows the roboto to perform vital functions.
+					other control systems which allows the robot to perform vital functions.
 				</div>
 			</div>
 		</div>
@@ -66,7 +68,9 @@
 			<div class="description">
 				<h2 class="h2">Camera Vision in action</h2>
 				<div class="text">
-					This image shows Camera Vision in action. It is a simple example of what the robot "sees" and how it is able to recognize how much green is in the picture.
+					Our Camera Vision system splits what it "sees" into three section. It then identifies how much green is in each
+					section. By finding the percentage of green in each section, the robot is able to tell where the green object
+					actually is.
 				</div>
 			</div>
 		</div>

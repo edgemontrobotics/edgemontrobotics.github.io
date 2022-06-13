@@ -9,7 +9,9 @@
 <header class="header">
 	<div class="inner">
 		<div class="banner-splash">
-			<h1 class="banner-title">Outreach</h1>
+			<Saos animation={'fade-in-up .75s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'} once={true} top={250}>
+				<h1 class="banner-title">Outreach</h1>
+			</Saos>
 		</div>
 	</div>
 </header>

@@ -10,7 +10,9 @@
 <header class="header">
 	<div class="inner">
 		<div class="banner-splash">
-			<h1 class="banner-title">Gallery</h1>
+			<Saos animation={'fade-in-up .75s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'} once={true} top={250}>
+				<h1 class="banner-title">Gallery</h1>
+			</Saos>
 		</div>
 	</div>
 </header>
@@ -140,7 +142,7 @@
 	}
 
 	.header {
-		background-image: url('https://images.unsplash.com/photo-1581591524425-c7e0978865fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+		background-image: url('https://images.unsplash.com/photo-1606706252694-6f516a7bb75d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80');
 	}
 	.inner {
 		background-color: rgba(0, 0, 0, 0.5);

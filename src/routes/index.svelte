@@ -27,8 +27,10 @@
 <header class="header">
 	<div class="inner">
 		<div class="banner-splash">
-			<h1 class="banner-title">Edgemont Robotics</h1>
-			<h2 class="banner-subtitle">Edging out the competition.</h2>
+			<Saos animation={'fade-in-up .75s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'} once={true} top={250}>
+				<h1 class="banner-title">Edgemont Robotics</h1>
+				<h2 class="banner-subtitle">Edging out the competition.</h2>
+			</Saos>
 		</div>
 	</div>
 </header>
@@ -60,9 +62,10 @@
 				<div class="description">
 					<h2 class="h2">What do we do?</h2>
 					<div class="text">
-						We work to create a robot that can accomplish a set of tasks during a competition.
-						Whether shooting hoops or placing a rubber ducks on a carousel, every year brings
-						different challenges.
+						Every school year, as a part of the FIRST Tech Challenge (FTC), our team must design,
+						build, program, and operate robots to compete in a head-to-head challenge in an alliance
+						format. Click <a class="keyword" href="https://www.youtube.com/watch?v=I6lX12idAf8"target="_blank">here</a>
+						to see the FTC challenge game for the 2021-22 season.
 					</div>
 				</div>
 			</div>
@@ -76,8 +79,8 @@
 				<div class="description">
 					<h2 class="h2">Get involved!</h2>
 					<div class="text">
-						We are always looking for future members. We accept anyone, regardless of experience.
-						Just drop in to one of our meetings either <span class="keyword">Monday</span> or
+						We are always looking for new members. Anyone can join, regardless of experience.
+						Just drop in to one of our meetings either on <span class="keyword">Monday</span> or
 						<span class="keyword">Wednesday</span> after school.
 					</div>
 				</div>
@@ -87,7 +90,8 @@
 	<div class="grid grey-background no-overflow">
 		<Saos animation={'fade-in-up .75s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'} once={true} top={250}>
 			<div class="eng-portfolio">
-				<a href="https://docs.google.com/document/d/1K2HBo31_Uack4QTbKGU6tca6Uu0lDzW8jU99CqqPp2U/" target="_blank" use:popperRef>
+				<a href="https://docs.google.com/document/d/1K2HBo31_Uack4QTbKGU6tca6Uu0lDzW8jU99CqqPp2U/"
+					target="_blank" use:popperRef>
 					<h2 class="h2 h2-ep">Engineering Portfolio</h2>
 				</a>
 				{#if showTooltip}
@@ -98,7 +102,8 @@
 				{/if}
 				<!-- svelte-ignore a11y-missing-attribute -->
 				<iframe
-					src="https://docs.google.com/document/d/1K2HBo31_Uack4QTbKGU6tca6Uu0lDzW8jU99CqqPp2U/preview?usp=embed_googleplus" />
+					src="https://docs.google.com/document/d/1K2HBo31_Uack4QTbKGU6tca6Uu0lDzW8jU99CqqPp2U/preview?usp=embed_googleplus"
+				/>
 			</div>
 		</Saos>
 	</div>
@@ -198,17 +203,17 @@
 	#tooltip {
 		font-family: var(--font-primary);
 		background: #333;
-        color: white;
-        font-weight: bold;
-        padding: 4px 8px;
-        font-size: 13px;
-        border-radius: 4px;
+		color: white;
+		font-weight: bold;
+		padding: 4px 8px;
+		font-size: 13px;
+		border-radius: 4px;
 	}
 	#arrow,
 	#arrow::before {
 		position: absolute;
 		width: 8px;
-  		height: 8px;
+		height: 8px;
 		top: -4px;
 		background: inherit;
 	}

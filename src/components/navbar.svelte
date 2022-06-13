@@ -3,7 +3,6 @@
 	import Cross from 'phosphor-svelte/lib/X';
 	import List from 'phosphor-svelte/lib/List';
 
-
 	function openNav() {
 		document.getElementById('sidebar').style.width = '250px';
 		document.getElementById('sidebarButton').style.marginLeft = '250px';
@@ -21,7 +20,7 @@
 		<nav class="nav">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<a class="logoLink logo" href="./">
-				<img src="/photos/logo_fullname.svg" width="200" height="auto" />
+				<img src="/photos/logo_fullname.svg" width="225" height="auto" />
 			</a>
 			<div class="links">
 				<ul>
