@@ -31,6 +31,6 @@
   "type": "module",
   "dependencies": {
     "gh-pages": "^4.0.0",
-    "svelte-inview": "^3.0.0"
+    "svelte-inview": "^3.0.1"
   }
 }
