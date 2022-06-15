@@ -127,9 +127,9 @@
 }
 .banner-subtitle {
     font-size: 44px;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 120%;
-    font-family: var(--font-primary);
+    font-family: var(--font-headline2);
     margin: 0;
 }
 
@@ -247,12 +247,16 @@
 
 /* Global Font Variables*/
 :root {
-    --font-primary: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    --font-display: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    --font-headline: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    --font-monospace: "Menlo", "Consolas", "Monaco", monospace;
-    --font-glitch: "ArchivoBlack", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    --font-cursive: "Reenie Beanie", "Comic Sans MS", cursive, sans-serif;
+    --font-primary: 'Rubik', sans-serif;
+    --font-display: 'Viga', sans-serif;
+    --font-headline: 'Fjalla One', sans-serif;
+    --font-headline2: 'Heebo', sans-serif;
+    text-rendering: geometricprecision;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    
 }
 
 /* Global Color Variables */

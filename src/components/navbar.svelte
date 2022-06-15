@@ -61,7 +61,8 @@
 		display: none;
 	}
 	a {
-		font-family: var(--font-primary);
+		font-family: var(--font-display);
+		font-weight: 300;
 	}
 	.navrow {
 		margin: 0 auto;

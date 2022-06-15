@@ -204,7 +204,7 @@
 		font-family: var(--font-primary);
 		background: #333;
 		color: white;
-		font-weight: bold;
+		font-weight: 200;
 		padding: 4px 8px;
 		font-size: 13px;
 		border-radius: 4px;
