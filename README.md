@@ -57,4 +57,6 @@ Please make sure you commit all of the changes you make to the website. To do th
 [Phosphor-Svelte](https://github.com/haruaki07/phosphor-svelte)\
 [Undraw](https://undraw.co/)\
 [gh-pages](https://github.com/tschaub/gh-pages)\
-[svelte-inview](https://github.com/maciekgrzybek/svelte-inview)
+[svelte-inview](https://github.com/maciekgrzybek/svelte-inview)\
+[Unsplash](https://unsplash.com/)\
+[Google Fonts](https://fonts.google.com/)\
