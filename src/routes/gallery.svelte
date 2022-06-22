@@ -1,24 +1,17 @@
-<script>
-	import Saos from "saos";
-
-</script>
-
 <svelte:head>
 	<title>Gallery - Edgemont Robotics</title>
 </svelte:head>
 
-<header class="header">
+<header>
 	<div class="inner">
 		<div class="banner-splash">
-			<Saos animation={'fade-in-up .75s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'} once={true} top={250}>
-				<h1 class="banner-title">Gallery</h1>
-			</Saos>
+			<h1 class="banner-title">Gallery</h1>
 		</div>
 	</div>
 </header>
-<Saos animation={'fade-in-up .75s cubic-bezier(0.35, 0.5, 0.65, 0.95) both'} once={true} top={250}>
+
 <div class="gallery-container">
-	<div class="w-4 h-3">
+	<div class="w-4 h-3" data-aos="fade-up">
 		<div class="gallery-item">
 			<div class="gallery-image">
 				<img src="./gallery/DSC_4349_cropped.JPG" alt="nature" />
@@ -26,15 +19,15 @@
 			<div class="text"></div>
 		</div>
 	</div>
-	<div class="w-2 h-3">
+	<div class="w-2 h-3" data-aos="fade-up">
 		<div class="gallery-item">
 			<div class="gallery-image">
-				<img src="./gallery/20220213_131504_cropped.jpg" alt="nature" />
+				<img src="./gallery/DSC_4364_cropped.JPG" alt="nature" />
 			</div>
 			<div class="text"></div>
 		</div>
 	</div>
-	<div class="w-2 h-3">
+	<div class="w-2 h-3" data-aos="fade-up">
 		<div class="gallery-item">
 			<div class="gallery-image">
 				<img src="./gallery/DSC_4361_cropped.JPG" alt="nature" />
@@ -42,7 +35,7 @@
 			<div class="text"></div>
 		</div>
 	</div>
-	<div class="w-4 h-3">
+	<div class="w-4 h-3" data-aos="fade-up">
 		<div class="gallery-item">
 			<div class="gallery-image">
 				<img src="./gallery/DSC_4353_cropped.JPG" alt="nature" />
@@ -50,23 +43,7 @@
 			<div class="text"></div>
 		</div>
 	</div>
-	<div class="w-4 h-3">
-		<div class="gallery-item">
-			<div class="gallery-image">
-				<img src="./photos/team_photo_fall.png" alt="nature" />
-			</div>
-			<div class="text"></div>
-		</div>
-	</div>
-	<div class="w-2 h-3">
-		<div class="gallery-item">
-			<div class="gallery-image">
-				<img src="./gallery/DSC_4371_cropped.JPG" alt="nature" />
-			</div>
-			<div class="text"></div>
-		</div>
-	</div>
-	<div class="w-3 h-3">
+	<div class="w-4 h-3" data-aos="fade-up">
 		<div class="gallery-item">
 			<div class="gallery-image">
 				<img src="./gallery/DSC_4374_cropped.JPG" alt="nature" />
@@ -74,80 +51,43 @@
 			<div class="text"></div>
 		</div>
 	</div>
-	<div class="w-3 h-3">
+	<div class="w-2 h-3" data-aos="fade-up">
 		<div class="gallery-item">
 			<div class="gallery-image">
-				<img src="./gallery/20220213_140848_cropped.jpg" alt="nature" />
+				<img src="./gallery/DSC_4371_cropped.JPG" alt="nature" />
 			</div>
 			<div class="text"></div>
 		</div>
 	</div>
-
-	<div class="w-2 h-4">
-		<div class="gallery-item">
-			<div class="gallery-image">
-				<img src="./gallery/IMG_9375.jpg" alt="nature" />
-			</div>
-			<div class="text"></div>
-		</div>
-	</div>
-	<div class="w-2 h-2">
-		<div class="gallery-item">
-			<div class="gallery-image">
-				<img src="./gallery/IMG_2170.jpg" alt="nature" />
-			</div>
-			<div class="text"></div>
-		</div>
-	</div>
-	<div class="w-2 h-4">
-		<div class="gallery-item">
-			<div class="gallery-image">
-				<img src="./gallery/IMG_9371.jpg" alt="nature" />
-			</div>
-			<div class="text"></div>
-		</div>
-	</div>
-	<div class="w-2 h-2">
-		<div class="gallery-item">
-			<div class="gallery-image">
-				<img src="./gallery/DSC_4405_cropped.JPG" alt="nature" />
-			</div>
-			<div class="text"></div>
-		</div>
-	</div>
-	<div class="w-6 h-4">
-		<div class="gallery-item">
-			<div class="gallery-image">
-				<img src="./gallery/scrimmage.jpg" alt="nature" />
-			</div>
-			<div class="text"></div>
-		</div>
-	</div>
-
 </div>
-</Saos>
 <div class="h-1 h-2 h-3 h-4 h-5 h-6 w-1 w-2 w-3 w-4 w-5 w-6"></div>
 
 <style>
-	/* Scroll animations */
-	@keyframes -global-fade-in-up {
-		0% {
-			opacity: 0;
-			transform: translateY(3vw);
-		}
-		100% {
-			opacity: 1;
-			transform: translateY(0);
-		}
-	}
-
-	.header {
-		background-image: url('https://images.unsplash.com/photo-1606706252694-6f516a7bb75d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80');
+	header {
+		height: 820px;
+		background-image: url('./banner_bg.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
 	.inner {
-		background-color: rgba(0, 0, 0, 0.5);
+		background: rgba(65, 105, 225, 0.5);
+		overflow: hidden;
+		height: 100%;
 	}
-
+	.banner-splash {
+		position: relative;
+		margin: 500px 0 0 200px;
+		color: white;
+		width: 800px;
+	}
+	.banner-title {
+		font-size: 84px;
+		font-weight: 700;
+		line-height: 120%;
+		font-family: var(--font-display);
+		margin: 0;
+	}
 	.gallery-container {
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
