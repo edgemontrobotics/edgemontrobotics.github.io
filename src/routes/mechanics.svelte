@@ -78,7 +78,7 @@
 						process. We use Fusion 360 to create a 3D model of our sketch.
 						<br />
 						<br />
-						CAD created by Mihir Patil ('22) and Gautam Soni ('23).
+						CAD created by Mihir Patil ('22), Alex William ('23) and Gautam Soni ('23).
 					</div>
 				</div>
 			</div>
@@ -96,7 +96,7 @@
 						features and add new ones. These new features can range from support rods to a 3D printed ramp.
 						<br />
 						<br />
-						CAD created by Gautam Soni ('23).
+						CAD created by Alex William ('23) and Gautam Soni ('23).
 					</div>
 				</div>
 			</div>
@@ -114,7 +114,7 @@
 						robot to life, allowing us to see what it is going to look like in the real world.
 						<br />
 						<br />
-						Render created by Gautam Soni ('23).
+						Render created by Alex William ('23) and Gautam Soni ('23).
 					</div>
 				</div>
 			</div>
